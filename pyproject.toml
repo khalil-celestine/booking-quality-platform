@@ -1,0 +1,20 @@
+[project]
+name = "booking-quality-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Khalil Celestine", email = "358073944+khalil-celestine@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=8.4.2",
+    "pytest-playwright>=0.7.1",
+]
+
+[project.scripts]
+booking-quality-platform = "booking_quality_platform:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
